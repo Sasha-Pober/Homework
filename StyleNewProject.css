@@ -1,0 +1,28 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url("Building.jpg");
+}
+
+header{
+    height: 75px;
+    border-bottom: 3px solid white;
+}
+
+.for_header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+}
+
+.menu a{
+    color: white;
+    margin: 25px;
+    text-decoration: none;
+    display: inline-block;
+    top: 20px;
+    font:  15px "Arial", sans-serif;
+}
